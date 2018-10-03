@@ -1,9 +1,6 @@
 /**
  * Created by Talel on 2018-10-02.
  */
-// var http = require('http');
-// var module1 = require('./module1');
-// var module2 = require('./module2');
 var fs = require('fs');
 var url = require('url');
 
@@ -23,13 +20,7 @@ function renderHTML(path, response){
         response.end();
     });
 
-    //module2.myFunction();
 }
-
-// http.createServer(function (request, response){
-//
-//
-// }).listen(3305);
 
 module.exports = {
     handleRequest: function (request, response){
